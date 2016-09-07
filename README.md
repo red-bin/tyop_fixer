@@ -1,4 +1,12 @@
-Uses difflib to link typos and condensed street names to an opencv list of addresses. Only tried for street names, since including address types, numbers and dirs created false positives..
+Uses difflib to link typos and condensed street names to an opencv list of addresses. Only tried for street names, since including address types, numbers and dirs created false positives. Corrects around half of typos.
+
+I'll try to add some smarter regression stuffs eventually.
+
+```
+$ wc -l corrected.csv badstreets | wc -l | head -2
+  9259 corrected.csv
+ 22555 badstreets
+```
 
 ```
 $ cat corrected.csv | sort -R | head -30
