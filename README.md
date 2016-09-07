@@ -1,3 +1,6 @@
+Uses difflib to link typos and condensed street names to an opencv list of      addresses.
+
+```
 ngfeild,springfield
 independendea,independence
 kenwood av,kenwood
@@ -23,4 +26,5 @@ commonwealth park,commonwealth
 hertmage,hermitage
 everreen,evergreen
 independenc bl,independence
+```
         
